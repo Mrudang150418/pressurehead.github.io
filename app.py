@@ -1,17 +1,6 @@
 import requests # type: ignore
 import streamlit as st # type: ignore
-from streamlit_lottie import st_lottie  # type: ignore
-
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
-
-def load_lottieurl(url):
-    r = requests.get(url)
-    if r.status_code !=200:
-        return None
-    return r.json()
-
-# ---LOAD ASSESTS---
-lottie_coding = load_lottieurl("https://lottie.host/31f335a2-7371-4864-b28a-0fc7d07e44db/JETIPYGNyJ.json")
 
 # ---HEADER SECTION---
 st.subheader("Fluid Mechanics Webpage") 
