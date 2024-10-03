@@ -22,9 +22,7 @@ with st.container():
                    The goal of fluid mechanics is to understand and predict the behaviour of fluids to design efficient systems and structures.
                    """)
         st.write("[LEARN MORE >](https://www.britannica.com/science/fluid-mechanics#:~:text=fluid%20mechanics%2C%20science%20concerned%20with,engineering%2C%20meteorology%2C%20and%20zoology.)")
-    with right_column:
-        st_lottie(lottie_coding , height = 300,key = "coding")
-
+        
 # ---INTRODUCTIION TO PRESSURE HEAD---
 with st.container():
     st.write("---")
